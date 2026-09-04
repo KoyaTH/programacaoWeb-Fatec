@@ -20,5 +20,5 @@
     echo "UF: ". $dadosRetornados["uf"]."<br><br>";
     echo "Estado: ". $dadosRetornados["estado"]."<br><br>";
     echo "Localidade: ". $dadosRetornados["localidade"]."<br><br>";
-    echo "<a href='./exercicio.php'>Voltar</a>";
+    echo "<a href='./index2.php'>Voltar</a>";
 ?>
