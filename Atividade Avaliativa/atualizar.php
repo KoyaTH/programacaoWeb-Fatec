@@ -9,13 +9,13 @@
     <nav>
         <div>
             <button><a href="consultar.php">Consultar</a></button>
-            <button active="true"><a href="cadastrar.php">Cadastrar</a></button>
+            <button><a href="cadastrar.php">Cadastrar</a></button>
             <button><a href="atualizar.php">Atualizar Post</a></button>
             <button><a href="editar.php">Editar Post</a></button>
             <button><a href="delete.php">Deletar</a></button>
         </div>
     </nav>
-    <h1>Cadastrar Posts</h1>
+    <h1>Atualizar Post</h1>
     <form action="atualizarAPI.php" method="post">
         <label for="id">Id da Postagem</label><br>
         <input type="text" name="id" id="id" required><br>
