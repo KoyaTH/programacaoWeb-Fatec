@@ -1,36 +1,23 @@
 # Programação Web
 
-Este repositório foi criado para registrar os estudos, exercícios e atividades da disciplina de Programação Web do curso de Análise e Desenvolvimento de Sistemas da Fatec Taquaritinga.
+Repositório de aulas, exercícios e atividades da disciplina de Programação Web do curso de Análise e Desenvolvimento de Sistemas da Fatec Taquaritinga.
 
-## Sobre o projeto
+## Tecnologias
 
-O objetivo deste projeto é organizar as aulas e práticas da matéria de forma simples e didática, facilitando o acompanhamento do conteúdo ao longo do curso.
-
-## Tecnologias utilizadas
-
-- XAMPP
 - PHP
-- HTML, CSS e JavaScript (quando necessário)
+- XAMPP para executar os arquivos PHP localmente
 
-## Como iniciar o projeto
+## Como executar
 
-1. Instale o XAMPP no seu computador.
-2. Inicie o Apache no painel do XAMPP.
-3. Coloque esta pasta dentro da pasta htdocs do XAMPP.
-4. Acesse o projeto no navegador através do endereço:
-   - http://localhost/programacaoWeb
+1. Instale o XAMPP e inicie o Apache.
+2. Copie a pasta do repositório para `htdocs`.
+3. Abra `http://localhost/programacaoWeb-Fatec/` no navegador. Se a pasta tiver outro nome, use esse nome no endereço.
 
-Se quiser abrir uma aula específica, basta acessar a pasta correspondente, por exemplo:
-- http://localhost/programacaoWeb/Aula0608/index.php
+Para abrir uma aula, acesse a pasta correspondente, por exemplo: `http://localhost/programacaoWeb-Fatec/Aula0806/`.
 
-## Estrutura do repositório
+## Organização
 
-As aulas estão separadas por pastas organizadas com o mês e o dia da aula, por exemplo:
-- Aula0608/ → aula do dia 06/08
-- Aula.../ → outras aulas e práticas
+- `Aula0806/` a `Aula0917/`: arquivos das aulas e exercícios, organizados pela data.
+- `Atividade Avaliativa/`: páginas PHP que consultam e alteram postagens usando a API DummyJSON.
 
-Essa organização ajuda a manter o conteúdo em ordem e facilitar a localização das atividades.
-
-## Observação
-
-Este repositório é um espaço para estudos e prática da disciplina, sendo atualizado conforme as aulas avançam.
+Este repositório é atualizado durante as aulas e serve como material de estudo da disciplina.
