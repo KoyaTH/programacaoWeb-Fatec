@@ -21,13 +21,13 @@
         <input type="text" name="id" id="id" required><br>
 
         <label for="title">Titulo</label><br>
-        <input type="text" name="title" id="title"><br>
+        <input type="text" name="title" id="title" required><br>
 
         <label for="body">Corpo da Mensagem</label><br>
-        <textarea type="text" name="body" id="body"></textarea><br>
+        <textarea type="text" name="body" id="body" required></textarea><br>
 
         <label for="tags">Tags da Postagem</label><br>
-        <input type="text" name="tags" id="tags" placeholder="Separe por espaços"><br>
+        <input type="text" name="tags" id="tags" required placeholder="Separe por espaços"><br>
 
         <label for="userId">ID do Usuario</label><br>
         <input type="number" name="userId" id="userId" required><br>
